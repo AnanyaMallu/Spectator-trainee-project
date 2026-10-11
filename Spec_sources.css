@@ -1,0 +1,279 @@
+body{
+    background-color: #F1F1F1;
+    height: 1000px;
+}
+
+/* logo*/
+.image{
+    background-color: #F1F1F1;
+}
+/* title */
+.header{
+    background-color: #F1F1F1;
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Poppins';
+    color: #36476D;
+    font-weight: 700;
+}
+/* blue box */
+.input-box {      
+    width: 1320px;
+    height: 143px;
+
+    background-color: #AFD7FA;
+    border: 1px solid #000000;
+    border-radius: 30px;
+
+    margin-left: auto;
+    margin-right: auto;
+
+    display: flex;
+    align-items: center;
+
+    font-size: 20px;
+    font-family: 'Poppins';
+    font-weight: 600;
+    color: #FFFFFF;
+}
+/* name */
+.input-box p:nth-of-type(1) {
+    margin-left: 40px;
+    margin-right: 10px;
+}
+/* first input */
+.input-box input:nth-of-type(1) {
+    width: 300px;
+    height: 50px;
+    box-sizing: border-box;
+    border: none;
+
+    margin-right: 80px;
+}
+/* email */
+.input-box p:nth-of-type(2) {
+    margin-right: 10px;
+}
+/* second input */
+.input-box input:nth-of-type(2) {
+    width: 300px;
+    height: 50px;
+    box-sizing: border-box;
+    border: none;
+
+    margin-right: 80px;
+}
+/* button */
+.input-box button {
+    width: 150px;
+    height: 60px;
+
+    border: none;
+    border-radius: 20px;
+
+    background-color: #52C952;
+    color: white;
+
+    font-family: 'Poppins';
+    font-size: 30px;
+    font-weight: 600;
+}
+/* first white box */
+.output-box1 {
+    width: 1293px;
+    height: 107px;
+    background-color: #FFFFFF;
+
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 70px;
+
+    border-radius: 30px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+    /* makes everything go in one row */
+    display: flex;
+    align-items: center;
+
+    padding: 25px 50px;
+    box-sizing: border-box;
+
+    font-family: 'Poppins';
+}
+
+/* index number */
+.output-box1 p:nth-of-type(1) {
+    margin: 0;
+    margin-right: 80px;
+
+    font-size: 40px;
+    font-weight: 600;
+    color: #36476D;
+}
+/* name */
+.output-box1 p:nth-of-type(2) {
+    margin: 0;
+    width: 300px;
+
+    font-size: 32px;
+    font-weight: 600;
+    color: #36476D;
+}
+/* email */
+.output-box1 p:nth-of-type(3) {
+    margin: 0;
+    margin-left: 80px;
+
+    font-size: 32px;
+    color: #828EA6;
+
+    flex: 1;
+}
+/* DELETE button */
+.output-box1 button {
+    width: 150px;
+    height: 60px;
+
+    border: none;
+    border-radius: 20px;
+
+    background-color: #FF7074;
+    color: white;
+
+    font-family: 'Poppins';
+    font-size: 30px;
+    font-weight: 600;
+}
+/* second white box */
+.output-box2 {
+    width: 1293px;
+    height: 107px;
+    background-color: #FFFFFF;
+
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+
+    border-radius: 30px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+    /* makes everything go in one row */
+    display: flex;
+    align-items: center;
+
+    padding: 25px 50px;
+    box-sizing: border-box;
+
+    font-family: 'Poppins';
+
+    /* index number */
+}
+.output-box2 p:nth-of-type(1) {
+    margin: 0;
+    margin-right: 80px;
+
+    font-size: 40px;
+    font-weight: 600;
+    color: #36476D;
+}
+/* name */
+.output-box2 p:nth-of-type(2) {
+    margin: 0;
+    width: 300px;
+
+    font-size: 32px;
+    font-weight: 600;
+    color: #36476D;
+}
+/* email */
+.output-box2 p:nth-of-type(3) {
+    margin: 0;
+    margin-left: 80px;
+
+    font-size: 32px;
+    color: #828EA6;
+
+    flex: 1;
+}
+/* DELETE button */
+.output-box2 button {
+    width: 150px;
+    height: 60px;
+
+    border: none;
+    border-radius: 20px;
+
+    background-color: #FF7074;
+    color: white;
+
+    font-family: 'Poppins';
+    font-size: 30px;
+    font-weight: 600;
+}
+
+/* third white box */
+.output-box3 {
+    width: 1293px;
+    height: 107px;
+    background-color: #FFFFFF;
+
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+
+    border-radius: 30px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+    /* makes everything go in one row */
+    display: flex;
+    align-items: center;
+
+    padding: 25px 50px;
+    box-sizing: border-box;
+
+    font-family: 'Poppins';
+}
+    /* index number */
+.output-box3 p:nth-of-type(1) {
+    margin: 0;
+    margin-right: 80px;
+
+    font-size: 40px;
+    font-weight: 600;
+    color: #36476D;
+}
+/* name */
+.output-box3 p:nth-of-type(2) {
+    margin: 0;
+    width: 300px;
+
+    font-size: 32px;
+    font-weight: 600;
+    color: #36476D;
+}
+/* email */
+.output-box3 p:nth-of-type(3) {
+    margin: 0;
+    margin-left: 80px;
+
+    font-size: 32px;
+    color: #828EA6;
+
+    flex: 1;
+}
+/* DELETE button */
+.output-box3 button {
+    width: 150px;
+    height: 60px;
+
+    border: none;
+    border-radius: 20px;
+
+    background-color: #FF7074;
+    color: white;
+
+    font-family: 'Poppins';
+    font-size: 30px;
+    font-weight: 600;
+}
+
